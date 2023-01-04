@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <person>
+        <firstname>Petr</firstname>
+        <surname>Pavel</surname>
+        <age>40</age>
+        <gender>Male</gender>
+    </person>
+    <person>
+        <firstname>Giovani</firstname>
+        <surname>Giorgio</surname>
+        <age>25</age>
+        <gender>Male</gender>
+    </person>
+    <person>
+        <firstname>Katy</firstname>
+        <surname>Perry</surname>
+        <age>30</age>
+        <gender>Female</gender>
+    </person>
+    <person>
+        <firstname>Barack</firstname>
+        <surname>Obama</surname>
+        <age>50</age>
+        <gender>Male</gender>
+    </person>
+</users>
