@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+
+print("Vitej v kalkulacce. Zde je prehled moznych operaci:")
+print("  +  = scitani")
+print("  -  = odecitani ")
+print("  x  = nasobeni")
+print("  /  = deleni")
+
+
+def vypocitej():
+    c1, op, c2 = input("Zadejte priklad ve formatu: [ cislo operace cislo ] : ").split()
+    a = int(c1)
+    b = int(c2)
+
+    if op == "+":
+        vysledek = a + b
+
+    elif op == "-":
+        vysledek = a - b
+
+    elif op == "x":
+        vysledek = a * b
+
+    elif op == "/":
+        vysledek = a / b
+
+    else:
+        print("Spatne zadany priklad")
+
+    print("")
+    print("|" + str(vysledek) + "|")
+    print("")
+
+
+def pokracovat():
+    rozhodnuti = input("Pokud chcete vypocitat dalsi priklad napiste A: ")
+    if rozhodnuti == "A":
+        print("")
+        vypocitej()
+        pokracovat()
+    else:
+        pass
+
+
+vypocitej()
+pokracovat()
